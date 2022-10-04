@@ -1,0 +1,23 @@
+@import '../../Fonts.css';
+
+.heroCard {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 30vh;
+  width: 40vw;
+}
+
+.heroPicture {
+  height: 100%;
+  margin: 1vh 4vw;
+  object-fit: cover;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .heroPicture {
+    height: 30vh;
+    width: 30vh;
+  }
+}
